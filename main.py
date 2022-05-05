@@ -139,7 +139,7 @@ def create(pack_name, image_path, namespace, descrpition, format, createtick, ti
     PACK_MCMETA.close()
 
 
-    if IMAGE_PATH != "" or True:
+    if IMAGE_PATH != "":
         copyfile(IMAGE_PATH, NAME+"/pack.png")
     # Creates data and functions folders:
     
